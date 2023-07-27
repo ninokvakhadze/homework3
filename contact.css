@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+}
+.header-texts {
+  display: flex;
+  gap: 121px;
+  margin-top: 40px;
+}
+.header-text {
+  color: #2414db;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+.header-text:hover{
+    color: #F50808;
+    cursor: pointer;
+}
+.image1 {
+  width: 100%;
+}
+.section1 {
+  padding: 120px;
+}
+h2 {
+  color: #17326e;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+h4 {
+  color: #090346;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 24px;
+}
+.section2 {
+  display: flex;
+  gap: 20px;
+  padding: 78px 130px;
+  justify-content: space-between;
+  background-color: #ebebf0;
+}
+h3 {
+  color: #19126b;
+  font-family: inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 13px;
+}
+.address {
+  color: #000;
+  font-family: inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 11px;
+}
+span{
+    color: #0D69A9;
+}
+footer {
+  background-color: #19126b;
+  display: flex;
+  padding: 50px 130px;
+  justify-content: space-between;
+}
+.logos {
+  display: flex;
+  gap: 20px;
+}
+.copyright {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 21px;
+}
